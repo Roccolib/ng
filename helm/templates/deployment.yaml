@@ -17,7 +17,7 @@ spec:
             containers:
             - name: richarddevops
               image: richarddevops/app-helm:latest
-              command: [ "echo", "SUCCESS" ]
+              #command: [ "echo", "SUCCESS" ]
               ports:
                 - containerPort: 3000
             imagePullSecrets:

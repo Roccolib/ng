@@ -16,7 +16,7 @@ spec:
         spec:
             containers:
             - name: richarddevops
-              image: richarddevops/app-helm:latest
+              image: nginx  #richarddevops/app-helm:latest
               command: [ "echo", "SUCCESS" ]
               ports:
                 - containerPort: 3000
